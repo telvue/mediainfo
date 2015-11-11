@@ -1,3 +1,6 @@
+v0.7.2telvue
+- Add base support of Mediainfo OtherStream
+
 v0.7.1 Tweakage
 - Removed Mediainfo#parsed_response accessor which always returned nil after
   multi-stream API updates
