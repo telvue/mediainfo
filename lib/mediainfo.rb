@@ -465,7 +465,7 @@ class Mediainfo
   
   private
   def mediainfo!
-    @last_command = "#{path} #{@escaped_full_filename} --Output=XML"
+    @last_command = "#{path} #{@escaped_full_filename} --Output=XML --File_TestContinuousFileNames=0"
     run_command!
   end
   
