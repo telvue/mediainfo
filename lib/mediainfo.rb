@@ -206,6 +206,7 @@ class Mediainfo
     mediainfo_attr_reader :codec_id, "Codec ID"
 
     mediainfo_duration_reader :duration_string1
+    alias_method :duration, :duration_string1
 
     mediainfo_attr_reader :format
     mediainfo_attr_reader :format_profile
@@ -223,6 +224,7 @@ class Mediainfo
     mediainfo_attr_reader :stream_id, "ID"
 
     mediainfo_duration_reader :duration_string1
+    alias_method :duration, :duration_string1
 
     mediainfo_attr_reader :stream_size
     mediainfo_attr_reader :bit_rate
@@ -295,6 +297,7 @@ class Mediainfo
     mediainfo_attr_reader :stream_id, "ID"
 
     mediainfo_duration_reader :duration_string1
+    alias_method :duration, :duration_string1
 
     mediainfo_attr_reader :samplingrate_string
     def sample_rate
